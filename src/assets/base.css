@@ -1,0 +1,18 @@
+:root {
+  --soft-bg: #F9FAFB;
+  --dark: #131313;
+  --soft: #D0D5DD;
+  --radius: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* for dark session wask */
+  }
+}
+* {
+  font-family: 'Play', sans-serif!important;
+}
+body {
+  margin: 0;
+}
